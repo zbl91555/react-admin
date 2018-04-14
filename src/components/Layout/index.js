@@ -127,7 +127,7 @@ export default class LayoutComponent extends Component {
               tip="加载中"
               spinning={this.props.store.loading}
             >
-              <Content>{this.props.children}</Content>
+              <Content className="content">{this.props.children}</Content>
             </Spin>
           </Layout>
         </div>
